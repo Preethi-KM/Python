@@ -1,0 +1,1 @@
+print("programming is thinking NOT typing :>")

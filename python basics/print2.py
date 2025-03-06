@@ -1,0 +1,1 @@
+print("Either you run the day, or day runs you:>")
