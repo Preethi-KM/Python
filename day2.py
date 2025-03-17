@@ -47,3 +47,39 @@ print("Total Grocery Cost:", total_cost)
 #Output:
 Total Grocery Cost: 70
 
+#5. Speed Calculation (Car Journey)
+
+# Speed calculation
+distance = 150  # in kilometers
+time = 3  # in hours
+speed = distance / time  
+print("Speed of the Car:", speed, "km/hr")
+
+#Output:Speed of the Car: 50.0 km/hr
+
+#6. Simple Interest Calculation (Bank Loan)
+
+# Simple Interest formula: SI = (P * R * T) / 100
+principal = 10000  # Loan amount
+rate = 5  # Interest rate in percentage
+time = 2  # Duration in years
+
+simple_interest = (principal * rate * time) / 100
+
+print("Simple Interest:", simple_interest)
+#Output:Simple Interest: 1000.0
+
+#7. Movie Ticket Booking System
+
+# Movie ticket system
+ticket_price = 12  
+num_tickets = 4  
+total_cost = ticket_price * num_tickets  
+
+print("Total Ticket Cost:", total_cost)
+
+#Output:
+#Total Ticket Cost: 48
+
+
+
