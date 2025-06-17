@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=Number(prompt("Enterbany number"));
+        sum=0;
+    if(num==0){
+        document.write("sum is 0");
+
+    }else{
+        while(num>0){
+          digit=num%10;
+          sum=sum+digit;
+            num=Math.floor(num/10);
+        }
+    }
+        console.log("sum of the number is"+sum);
+    </script>
+</body>
+</html>

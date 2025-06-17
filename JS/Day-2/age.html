@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age=prompt("please enter your age ");
+        age=Number(age);
+        if(isNaN(age) || age<0){
+            console.log(" Invalid age enterd");
+        }
+            else if(age>0 && age<12){
+                console.log("you are a Child");
+            }
+            else if (age>13 && age<17){
+                console.log("your Teenager");
+
+            }
+            else if(age>18&&age<59){
+                console.log("you are adult");
+
+            }else{
+                console.log("Senior")
+            }
+
+            
+
+        
+    </script>
+</body>
+</html>

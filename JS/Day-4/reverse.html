@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    let num=Number(prompt("Enter any number"));
+    let ori=num;
+    let R=0;
+    while(ori>0){
+        let digit=ori%10;
+         R=R*10+digit;
+        ori=Math.floor(ori/10);
+
+    }
+    document.write("Reverse of the number id "+R);
+  </script>  
+</body>
+</html>

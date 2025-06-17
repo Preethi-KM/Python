@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=Number(prompt("Enter any number"));
+        let count=0;
+        if(num===0){
+            count=1;
+
+        }else{
+        while(num>0){
+            num=Math.floor(num/10);
+            count++;
+        }
+    }
+    console.log(count);
+    </script>
+</body>
+</html>
